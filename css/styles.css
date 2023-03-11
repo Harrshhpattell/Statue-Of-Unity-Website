@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    transition: all 0.5s;
+}
+.navbar-scrolled{
+    box-shadow: 0 0px 6px #EDF1D6;
+    background: -webkit-linear-gradient(0deg,#2C3333, #2C3333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.title {
+    /* background-color: #FDF6D6; */
+    background: linear-gradient(45deg,#FDA769,#FEC868);
+}
+
+.maintext{
+    font-family: 'Bree Serif', serif;
+    font-size: 400%;
+    line-height: 1.5;
+    color: #4C4B16;
+
+}
+.maintext span{
+    font-size: 200%;
+    font-family: 'Tilt Prism', cursive;
+}
+
+#navbarSupportedContent ul li a:hover{
+   color: #EDE9D5;
+   text-decoration: overline;
+   transition: 0.4s;
+}
+
+.sec1{
+    padding: 3% 8%;
+    text-align: center;
+}
+
+
+#last{
+    font-size: 150%;
+    color: #E5E5CB;
+    background-color: #1A120B;
+}
+
+@media (max-width:1147px){
+    /* .container-fluid{
+        padding: 3% 4%;
+    } */
+    .maintext{
+        font-size: 300%;
+    }
+    .maintext span{
+        font-size: 150%;
+    }
+}
+@media (max-width:404px){
+    .maintext{
+        font-size: 250%;
+    }
+    .maintext span{
+        font-size: 125%;
+    }
+
+}
+
+/* ------names of statue------- */
+
+.statueNames{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+.col-lg-2{
+    text-align: center;
+}
+
+@media (max-width:450px){
+    .sec2 h2{
+        font-size: 20px;
+    }
+}
+
+hr{
+    border: dotted #37306B 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 70px auto;
+    
+}
+
+/* ----GLIMPSES----Section------*/
+.sec3{
+    background-color: #2E4F4F;
+    height: auto;
+}
+.sec3 div{
+    padding: 4% 0;
+}
+.sec3 div h2{
+    text-align: center;
+    color: #F7F1E5;
+    margin: 20px;
+} 
+
+@media (max-width:545px){
+    .sec3 div h2{
+        font-size: 20px;
+    }
+}
+
+.embed-responsive{
+    width:700px;
+    height:315px;
+    margin: 5% auto;
+}
+.embed-responsive iframe{
+    width:700px;
+    height:315px;
+}
+
+@media (max-width: 730px){
+    .embed-responsive{
+        width:500px;
+        height:300px;
+        margin: 5% auto;
+    }
+    .embed-responsive iframe{
+        width:500px;
+        height:300px;
+    }
+}
+
+@media (max-width: 530px){
+    .embed-responsive{
+        width:300px;
+        height:230px;
+        margin: 5% auto;
+    }
+    .embed-responsive iframe{
+        width:300px;
+        height:230px;
+    }
+}
+
+/* ------about-------*/
+.about{
+    padding: 0 15%;
+}
+.about h2,
+.ticket h2{
+    color: #2E4F4F;
+    text-decoration: overline;
+    font-size: 300%;
+}
+
+.about h2 mark,
+.ticket h2 mark{
+    display: block;
+}
+
+.project{
+    margin: 5% 10%;
+}
+@media (max-width:1000px){
+    .about{
+        padding: 0 5%;
+    }
+    .project{
+        margin: 5% 0%;
+    }
+    
+}
+@media (max-width:650px){
+    .about{
+        padding: 0;
+    }
+    .project{
+        margin: 5% 0%;
+    }
+    .about h2{
+        margin: 0 10px;
+        font-size: 200%;
+    }
+    
+}
+.project h3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.card-body{
+    /* background-image: #CB7246; */
+    background-image: URL("../images/dddepth-345.jpg");
+    object-fit: cover;
+    font-size: 120%;
+}
+.card-text{
+    font-family: 'Bree Serif', serif;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(0deg,#fff, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+/*------book ticket----sec5----*/
+
+.listofcate{
+  background-color: #EDF1D6;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.ticket{
+    padding: 0 14%;
+}
+.ticketbooking{
+    width: 100%;
+    height:100%;
+    border-radius: 3px;    
+    
+}
+
+
+.button-1 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 50%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+  }
+  
+  .button-1:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+
+  .cate{
+    display: flex;
+    justify-content: center;
+  }
+  .cate div{
+    padding: 0 5%;
+  }
+ 
+
+@media (max-width:1000px){
+    .ticket{
+        padding: 0 5%;
+    }
+    .imgbox{
+        width: 10%;
+    }
+    .ticket-details{
+        width: 90%;
+    }
+    .button-1{
+        width: 60%;
+    }
+}
+
+@media (max-width:800px){
+    .ticket{
+        padding: 0;
+    }
+    .ticket h2{
+        margin: 0 10px;
+        font-size: 200%;
+    }
+    .cate{
+        flex-wrap: wrap;
+    }
+    .ticket-details{
+        margin: 10% 0 ;
+    }
+    .listofcate{
+        margin-top: 10px;
+    }
+}
+
+#hr-cate{
+    border: dashed #37306B 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 40px auto;
+}
+
+.imgbox{
+    width: 20%;
+}
+.ticket-details{
+    width: 80%;
+}
