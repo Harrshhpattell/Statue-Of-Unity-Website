@@ -12,11 +12,7 @@ The Website they want is a “Single Page” or “1 Page” Website. You must p
 + You have to redesign a 1-page website.    
 - The website must have a navigation menu which can redirect to the appropriate section.     
 * The website is of the Statue of Unity, so feel free to use colours and animations. Using Parallax is a Plus.
-
-The website must be Mobile friendly.
-
-“Lorem ipsum..” can be used for long descriptions.
-
-You can put any values for the given points to be added on the website. For example, you should create Random Text testimonials.
-
-You can use any CSS frameworks you like.
++ The website must be Mobile friendly.
++ “Lorem ipsum..” can be used for long descriptions.
++ You can put any values for the given points to be added on the website. For example, you should create Random Text testimonials.
++ You can use any CSS frameworks you like.
