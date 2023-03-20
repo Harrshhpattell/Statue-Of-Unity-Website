@@ -1,6 +1,7 @@
 # Statue of unit
-Codefest2.0 (Rao Information Technology)- Round-1           
-For View Website 🔗:-[Click Here](https://harrshhpattell.github.io/Statue_Of_Unity-codefest2.0-/)   <img src="https://harrshhpattell.github.io/Statue_Of_Unity-codefest2.0-/?style=for-the-badge&logo=java&logoColor=white" style="margin-bottom: 4px;" height="30px">
+Codefest2.0 (Rao Information Technology)- Round-1    
+Registration Id :- `RCFv2.0-1645`      
+Website link 🔗:-[`Click Here`](https://harrshhpattell.github.io/Statue_Of_Unity-codefest2.0-/)  
 
 ## Problem statement given by Rao Information Technology   
 Sardar Vallabhbhai Patel Rashtriya Ekta Trust (SVPRET) is looking for a web designer to redesign the website of ‘Statue of Unity’. The purpose of redesigning the website is to improve user experience, which will allow the users to access the information easily from the website to plan their visit better. As ‘Statue of Unity’ is the largest monument in the world, the design of the website should give a feel of how grandeur the monument would be in reality.
@@ -18,4 +19,3 @@ The Website they want is a “Single Page” or “1 Page” Website. You must p
 + You can put any values for the given points to be added on the website. For example, you should create Random Text testimonials.
 + You can use any CSS frameworks you like.
 
-## Website Photo
