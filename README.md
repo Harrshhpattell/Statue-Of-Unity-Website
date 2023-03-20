@@ -1,4 +1,4 @@
-# Statue of unit
+# Statue of unity
 Codefest2.0 (Rao Information Technology)- Round-1    
 Registration Id :- `RCFv2.0-1645`      
 Website link 🔗:-[`Click Here`](https://harrshhpattell.github.io/Statue-Of-Unity-Website/)  
